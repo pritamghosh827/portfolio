@@ -1,0 +1,767 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pritam Ghosh | Futuristic Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Neural Network Background -->
+    <div class="neural-bg" id="neural-bg"></div>
+
+    <!-- Matrix Rain Effect -->
+    <canvas id="matrix-canvas"></canvas>
+
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text cyber-glow">PG</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#achievements" class="nav-link">Achievements</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="nav-toggle" id="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-grid">
+            <div class="hero-content">
+                <div class="glitch-wrapper">
+                    <h1 class="hero-title cyber-text" data-text="PRITAM GHOSH">PRITAM GHOSH</h1>
+                </div>
+                <div class="subtitle-container">
+                    <p class="hero-subtitle">
+                        <span class="typing-text"></span>
+                        <span class="cyber-cursor">█</span>
+                    </p>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <span class="stat-number cyber-glow">100+</span>
+                        <span class="stat-label">Problems Solved</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number cyber-glow">9.06</span>
+                        <span class="stat-label">CGPA</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number cyber-glow">5+</span>
+                        <span class="stat-label">Projects</span>
+                    </div>
+                </div>
+                <div class="hero-buttons">
+                    <a href="#contact" class="cyber-btn primary">
+                        <span>Initialize Contact</span>
+                        <div class="btn-particles"></div>
+                    </a>
+                    <a href="#projects" class="cyber-btn secondary">
+                        <span>View Portfolio</span>
+                        <div class="btn-particles"></div>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="profile-container">
+                    <div class="profile-frame">
+                        <img src="1699812540228-transformed.jpg" alt="Pritam Ghosh - Software Developer" class="profile-image">
+                        <div class="scan-lines"></div>
+                        <div class="hologram-effect"></div>
+                        <div class="image-overlay"></div>
+                    </div>
+                    <div class="data-streams">
+                        <div class="stream stream-1"></div>
+                        <div class="stream stream-2"></div>
+                        <div class="stream stream-3"></div>
+                        <div class="stream stream-4"></div>
+                    </div>
+                    <div class="profile-stats">
+                        <div class="profile-stat">
+                            <span class="stat-icon">🎯</span>
+                            <span class="stat-text">FOCUSED</span>
+                        </div>
+                        <div class="profile-stat">
+                            <span class="stat-icon">⚡</span>
+                            <span class="stat-text">OPTIMIZED</span>
+                        </div>
+                        <div class="profile-stat">
+                            <span class="stat-icon">🚀</span>
+                            <span class="stat-text">READY</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Floating Code Elements -->
+        <div class="floating-code">
+            <span class="code-fragment" style="--delay: 0s">function() {</span>
+            <span class="code-fragment" style="--delay: 2s">console.log('Hello World');</span>
+            <span class="code-fragment" style="--delay: 4s">return success;</span>
+            <span class="code-fragment" style="--delay: 1s">}</span>
+            <span class="code-fragment" style="--delay: 3s">class Developer {</span>
+            <span class="code-fragment" style="--delay: 5s">this.skills = [];</span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title cyber-text">System.about()</h2>
+            <div class="about-grid">
+                <div class="about-info cyber-panel">
+                    <div class="panel-header">
+                        <span class="terminal-prompt">pritam@developer:~$</span>
+                    </div>
+                    <div class="about-content">
+                        <p class="about-description">
+                            Enthusiastic final-year Computer Science student with a solid foundation in programming and web development. 
+                            Currently optimizing algorithms for real-world applications and building scalable software solutions.
+                        </p>
+                        <div class="personal-data">
+                            <div class="data-row">
+                                <span class="data-label">Location:</span>
+                                <span class="data-value cyber-glow">Purba Bardhaman, West Bengal</span>
+                            </div>
+                            <div class="data-row">
+                                <span class="data-label">Status:</span>
+                                <span class="data-value cyber-glow">Available for Opportunities</span>
+                            </div>
+                            <div class="data-row">
+                                <span class="data-label">Focus:</span>
+                                <span class="data-value cyber-glow">Full-Stack Development</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-links">
+                    <a href="mailto:gpritam827@gmail.com" class="cyber-link">
+                        <div class="link-icon">📧</div>
+                        <span>gpritam827@gmail.com</span>
+                    </a>
+                    <a href="https://linkedin.com/in/pritamghosh827" class="cyber-link" target="_blank">
+                        <div class="link-icon">💼</div>
+                        <span>LinkedIn Profile</span>
+                    </a>
+                    <a href="https://leetcode.com/pritamghosh827" class="cyber-link" target="_blank">
+                        <div class="link-icon">🧮</div>
+                        <span>LeetCode Solutions</span>
+                    </a>
+                    <a href="https://auth.geeksforgeeks.org/user/pritamghosh827" class="cyber-link" target="_blank">
+                        <div class="link-icon">💻</div>
+                        <span>GeeksforGeeks Profile</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section">
+        <div class="container">
+            <h2 class="section-title cyber-text">Education.log()</h2>
+            <div class="education-timeline">
+                <div class="timeline-container">
+                    <div class="timeline-item" data-year="2022-Present">
+                        <div class="edu-card cyber-panel">
+                            <div class="edu-header">
+                                <div class="edu-status active">ACTIVE</div>
+                                <div class="edu-year">2022 - Present</div>
+                            </div>
+                            <h3>B.Tech – Computer Science & Engineering</h3>
+                            <h4>JIS College of Engineering</h4>
+                            <div class="edu-metrics">
+                                <div class="metric">
+                                    <span class="metric-label">SGPA</span>
+                                    <span class="metric-value cyber-glow">9.06</span>
+                                </div>
+                                <div class="metric">
+                                    <span class="metric-label">Rank</span>
+                                    <span class="metric-value cyber-glow">Top 5%</span>
+                                </div>
+                            </div>
+                            <p>West Bengal, India</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item" data-year="2020">
+                        <div class="edu-card cyber-panel">
+                            <div class="edu-header">
+                                <div class="edu-status completed">COMPLETED</div>
+                                <div class="edu-year">2020</div>
+                            </div>
+                            <h3>Higher Secondary</h3>
+                            <h4>Burdwan Municipal High School</h4>
+                            <div class="edu-metrics">
+                                <div class="metric">
+                                    <span class="metric-label">Score</span>
+                                    <span class="metric-value cyber-glow">93%</span>
+                                </div>
+                            </div>
+                            <p>West Bengal, India</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item" data-year="2018">
+                        <div class="edu-card cyber-panel">
+                            <div class="edu-header">
+                                <div class="edu-status completed">COMPLETED</div>
+                                <div class="edu-year">2018</div>
+                            </div>
+                            <h3>Secondary</h3>
+                            <h4>Burdwan Municipal High School</h4>
+                            <div class="edu-metrics">
+                                <div class="metric">
+                                    <span class="metric-label">Score</span>
+                                    <span class="metric-value cyber-glow">92%</span>
+                                </div>
+                            </div>
+                            <p>West Bengal, India</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title cyber-text">Projects.execute()</h2>
+            <div class="projects-container">
+                <div class="project-card cyber-panel">
+                    <div class="project-header">
+                        <div class="project-status">DEPLOYED</div>
+                        <div class="project-type">Web Application</div>
+                    </div>
+                    <h3>CINEVIBE</h3>
+                    <p class="project-subtitle">Mood-Based Movie Recommender</p>
+                    <p class="project-description">
+                        AI-powered recommendation system that analyzes user emotions and preferences to suggest movies. 
+                        Features advanced filtering by mood, genre, and language with IMDb integration.
+                    </p>
+                    <div class="tech-grid">
+                        <span class="tech-badge">HTML5</span>
+                        <span class="tech-badge">CSS3</span>
+                        <span class="tech-badge">JavaScript</span>
+                    </div>
+                    <div class="project-metrics">
+                        <div class="metric-item">
+                            <span class="metric-icon">⭐</span>
+                            <span>User Experience Focus</span>
+                        </div>
+                        <div class="metric-item">
+                            <span class="metric-icon">🎯</span>
+                            <span>API Integration</span>
+                        </div>
+                    </div>
+                    <a href="https://github.com/pritamghosh827/Mood-based-Movie-Recommendation-system" class="project-link cyber-btn">
+                        <span>View Repository</span>
+                    </a>
+                </div>
+
+                <div class="project-card cyber-panel">
+                    <div class="project-header">
+                        <div class="project-status">LIVE</div>
+                        <div class="project-type">Full-Stack</div>
+                    </div>
+                    <h3>STYLIFY</h3>
+                    <p class="project-subtitle">E-Commerce Platform</p>
+                    <p class="project-description">
+                        Complete e-commerce solution with secure authentication, shopping cart, payment integration, 
+                        and comprehensive admin dashboard. Built with modern MERN stack architecture.
+                    </p>
+                    <div class="tech-grid">
+                        <span class="tech-badge">React.js</span>
+                        <span class="tech-badge">Node.js</span>
+                        <span class="tech-badge">MongoDB</span>
+                    </div>
+                    <div class="project-metrics">
+                        <div class="metric-item">
+                            <span class="metric-icon">🚀</span>
+                            <span>Scalable Architecture</span>
+                        </div>
+                        <div class="metric-item">
+                            <span class="metric-icon">🔒</span>
+                            <span>Secure Payments</span>
+                        </div>
+                    </div>
+                    <a href="https://github.com/pritamghosh827/Stylify-ecommerce" class="project-link cyber-btn">
+                        <span>View Repository</span>
+                    </a>
+                </div>
+
+                <div class="project-card cyber-panel">
+                    <div class="project-header">
+                        <div class="project-status">PUBLISHED</div>
+                        <div class="project-type">Browser Extension</div>
+                    </div>
+                    <h3>AI Article Summarizer</h3>
+                    <p class="project-subtitle">Chrome Extension</p>
+                    <p class="project-description">
+                        Intelligent browser extension powered by Gemini API that extracts and summarizes web articles. 
+                        Features one-click summarization with customizable summary length and key points extraction.
+                    </p>
+                    <div class="tech-grid">
+                        <span class="tech-badge">JavaScript</span>
+                        <span class="tech-badge">Gemini API</span>
+                        <span class="tech-badge">Chrome APIs</span>
+                    </div>
+                    <div class="project-metrics">
+                        <div class="metric-item">
+                            <span class="metric-icon">🤖</span>
+                            <span>AI Integration</span>
+                        </div>
+                        <div class="metric-item">
+                            <span class="metric-icon">⚡</span>
+                            <span>Real-time Processing</span>
+                        </div>
+                    </div>
+                    <a href="https://github.com/pritamghosh827/AI-Article-Summarizer-Chrome-Extension" class="project-link cyber-btn">
+                        <span>View Repository</span>
+                    </a>
+                </div>
+
+                <div class="project-card cyber-panel">
+                    <div class="project-header">
+                        <div class="project-status">DEPLOYED</div>
+                        <div class="project-type">Website</div>
+                    </div>
+                    <h3>RADHAKRISHNA BASTRALAYA</h3>
+                    <p class="project-subtitle">Business Website</p>
+                    <p class="project-description">
+                        Professional website for Radhakrishna Bastralaya showcasing their services and information.
+                        Clean and responsive design built with modern web technologies.
+                    </p>
+                    <div class="tech-grid">
+                        <span class="tech-badge">HTML5</span>
+                        <span class="tech-badge">CSS3</span>
+                        <span class="tech-badge">JavaScript</span>
+                    </div>
+                    <div class="project-metrics">
+                        <div class="metric-item">
+                            <span class="metric-icon">🌐</span>
+                            <span>Live Deployment</span>
+                        </div>
+                        <div class="metric-item">
+                            <span class="metric-icon">📱</span>
+                            <span>Responsive Design</span>
+                        </div>
+                    </div>
+                    <a href="https://github.com/pritamghosh827/Radhakrishna-Bastralaya" class="project-link cyber-btn">
+                        <span>View Repository</span>
+                    </a>
+                </div>
+
+                <div class="project-card cyber-panel">
+                    <div class="project-header">
+                        <div class="project-status">LIVE</div>
+                        <div class="project-type">AI/ML Application</div>
+                    </div>
+                    <h3>PLANT DISEASE DETECTION</h3>
+                    <p class="project-subtitle">AI-Powered Agriculture Tool</p>
+                    <p class="project-description">
+                        Advanced machine learning application that detects plant diseases from leaf images using CNN-RNN hybrid models.
+                        Full-stack solution with React frontend, Python Flask backend, and TensorFlow integration.
+                    </p>
+                    <div class="tech-grid">
+                        <span class="tech-badge">React.js</span>
+                        <span class="tech-badge">Python</span>
+                        <span class="tech-badge">TensorFlow</span>
+                        <span class="tech-badge">Flask</span>
+                    </div>
+                    <div class="project-metrics">
+                        <div class="metric-item">
+                            <span class="metric-icon">🤖</span>
+                            <span>AI/ML Integration</span>
+                        </div>
+                        <div class="metric-item">
+                            <span class="metric-icon">🌾</span>
+                            <span>Agriculture Focus</span>
+                        </div>
+                    </div>
+                    <a href="https://github.com/pritamghosh827/Plant-disease-detection" class="project-link cyber-btn">
+                        <span>View Repository</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 class="section-title cyber-text">Skills.analyze()</h2>
+            <div class="skills-grid">
+                <div class="skill-category cyber-panel">
+                    <div class="category-header">
+                        <h3>Programming Languages</h3>
+                        <div class="category-status">PROFICIENT</div>
+                    </div>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">C++</span>
+                                <span class="skill-level cyber-glow">80%</span>
+                            </div>
+                            <div class="skill-visualizer">
+                                <div class="skill-progress" data-progress="85"></div>
+                                <div class="progress-glow"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">C</span>
+                                <span class="skill-level cyber-glow">85%</span>
+                            </div>
+                            <div class="skill-visualizer">
+                                <div class="skill-progress" data-progress="85"></div>
+                                <div class="progress-glow"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Java</span>
+                                <span class="skill-level cyber-glow">80%</span>
+                            </div>
+                            <div class="skill-visualizer">
+                                <div class="skill-progress" data-progress="90"></div>
+                                <div class="progress-glow"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Python</span>
+                                <span class="skill-level cyber-glow">75%</span>
+                            </div>
+                            <div class="skill-visualizer">
+                                <div class="skill-progress" data-progress="75"></div>
+                                <div class="progress-glow"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category cyber-panel">
+                    <div class="category-header">
+                        <h3>Web Technologies</h3>
+                        <div class="category-status">ADVANCED</div>
+                    </div>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">HTML5</span>
+                                <span class="skill-level cyber-glow">90%</span>
+                            </div>
+                            <div class="skill-visualizer">
+                                <div class="skill-progress" data-progress="90"></div>
+                                <div class="progress-glow"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">CSS3</span>
+                                <span class="skill-level cyber-glow">85%</span>
+                            </div>
+                            <div class="skill-visualizer">
+                                <div class="skill-progress" data-progress="85"></div>
+                                <div class="progress-glow"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">JavaScript</span>
+                                <span class="skill-level cyber-glow">80%</span>
+                            </div>
+                            <div class="skill-visualizer">
+                                <div class="skill-progress" data-progress="80"></div>
+                                <div class="progress-glow"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">React.js</span>
+                                <span class="skill-level cyber-glow">70%</span>
+                            </div>
+                            <div class="skill-visualizer">
+                                <div class="skill-progress" data-progress="70"></div>
+                                <div class="progress-glow"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Node.js</span>
+                                <span class="skill-level cyber-glow">65%</span>
+                            </div>
+                            <div class="skill-visualizer">
+                                <div class="skill-progress" data-progress="65"></div>
+                                <div class="progress-glow"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category cyber-panel">
+                    <div class="category-header">
+                        <h3>Tools & Databases</h3>
+                        <div class="category-status">EXPERIENCED</div>
+                    </div>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">VS Code</span>
+                                <span class="skill-level cyber-glow">90%</span>
+                            </div>
+                            <div class="skill-visualizer">
+                                <div class="skill-progress" data-progress="90"></div>
+                                <div class="progress-glow"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Git</span>
+                                <span class="skill-level cyber-glow">80%</span>
+                            </div>
+                            <div class="skill-visualizer">
+                                <div class="skill-progress" data-progress="80"></div>
+                                <div class="progress-glow"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">MySQL</span>
+                                <span class="skill-level cyber-glow">75%</span>
+                            </div>
+                            <div class="skill-visualizer">
+                                <div class="skill-progress" data-progress="75"></div>
+                                <div class="progress-glow"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Linux</span>
+                                <span class="skill-level cyber-glow">75%</span>
+                            </div>
+                            <div class="skill-visualizer">
+                                <div class="skill-progress" data-progress="75"></div>
+                                <div class="progress-glow"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">MongoDB</span>
+                                <span class="skill-level cyber-glow">70%</span>
+                            </div>
+                            <div class="skill-visualizer">
+                                <div class="skill-progress" data-progress="70"></div>
+                                <div class="progress-glow"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="section">
+        <div class="container">
+            <h2 class="section-title cyber-text">Achievements.unlock()</h2>
+            <div class="achievements-grid">
+                <div class="achievement-card cyber-panel">
+                    <div class="achievement-header">
+                        <div class="achievement-icon">🏆</div>
+                        <div class="achievement-status">EARNED</div>
+                    </div>
+                    <h3>NPTEL Elite Certification</h3>
+                    <p class="achievement-details">
+                        Soft Computing – Elite+Silver Badge<br>
+                        <span class="score cyber-glow">Score: 83%</span>
+                    </p>
+                    <div class="achievement-metrics">
+                        <span class="metric-badge">Top Performer</span>
+                        <span class="metric-badge">Silver Badge</span>
+                    </div>
+                </div>
+
+                <div class="achievement-card cyber-panel">
+                    <div class="achievement-header">
+                        <div class="achievement-icon">💻</div>
+                        <div class="achievement-status">ACTIVE</div>
+                    </div>
+                    <h3>Coding Excellence</h3>
+                    <p class="achievement-details">
+                        Solved <span class="cyber-glow">100+ coding problems</span><br>
+                        across LeetCode and GeeksforGeeks platforms
+                    </p>
+                    <div class="achievement-metrics">
+                        <span class="metric-badge">Problem Solver</span>
+                        <span class="metric-badge">Consistent</span>
+                    </div>
+                </div>
+
+                <div class="achievement-card cyber-panel">
+                    <div class="achievement-header">
+                        <div class="achievement-icon">🗄️</div>
+                        <div class="achievement-status">MASTERED</div>
+                    </div>
+                    <h3>Database Expertise</h3>
+                    <p class="achievement-details">
+                        Solved <span class="cyber-glow">50+ MySQL problems</span><br>
+                        on LeetCode platform
+                    </p>
+                    <div class="achievement-metrics">
+                        <span class="metric-badge">SQL Expert</span>
+                        <span class="metric-badge">Database Pro</span>
+                    </div>
+                </div>
+
+                <div class="achievement-card cyber-panel">
+                    <div class="achievement-header">
+                        <div class="achievement-icon">🎓</div>
+                        <div class="achievement-status">ONGOING</div>
+                    </div>
+                    <h3>Academic Excellence</h3>
+                    <p class="achievement-details">
+                        Ranked in <span class="cyber-glow">Top 5%</span><br>
+                        of Computer Science department
+                    </p>
+                    <div class="achievement-metrics">
+                        <span class="metric-badge">High Achiever</span>
+                        <span class="metric-badge">Academic</span>
+                    </div>
+                </div>
+
+                <div class="achievement-card cyber-panel">
+                    <div class="achievement-header">
+                        <div class="achievement-icon">🎯</div>
+                        <div class="achievement-status">SCHOLAR</div>
+                    </div>
+                    <h3>Scholarship Recipient</h3>
+                    <p class="achievement-details">
+                        Reliance Foundation Undergraduate Scholar<br>
+                        <span class="cyber-glow">(2022–2026)</span>
+                    </p>
+                    <div class="achievement-metrics">
+                        <span class="metric-badge">Scholar</span>
+                        <span class="metric-badge">Merit-based</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title cyber-text">Contact.init()</h2>
+            <div class="contact-grid">
+                <div class="contact-form-container">
+                    <div class="contact-form cyber-panel">
+                        <div class="form-header">
+                            <h3>Send Message</h3>
+                            <div class="form-status">READY</div>
+                        </div>
+                        <form class="cyber-form">
+                            <div class="form-row">
+                                <div class="input-group">
+                                    <label for="name">Name</label>
+                                    <input type="text" id="name" name="name" required>
+                                    <div class="input-line"></div>
+                                </div>
+                                <div class="input-group">
+                                    <label for="email">Email</label>
+                                    <input type="email" id="email" name="email" required>
+                                    <div class="input-line"></div>
+                                </div>
+                            </div>
+                            <div class="input-group">
+                                <label for="subject">Subject</label>
+                                <input type="text" id="subject" name="subject" required>
+                                <div class="input-line"></div>
+                            </div>
+                            <div class="input-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" rows="5" required></textarea>
+                                <div class="input-line"></div>
+                            </div>
+                            <button type="submit" class="cyber-btn primary submit-btn">
+                                <span>Transmit Message</span>
+                                <div class="btn-particles"></div>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="contact-info">
+                    <div class="contact-card cyber-panel">
+                        <div class="contact-header">
+                            <div class="contact-icon">📍</div>
+                            <div class="contact-status">LOCATION</div>
+                        </div>
+                        <h3>Base Location</h3>
+                        <p>Ghorodur Chati, Sripally<br>Purba Bardhaman, West Bengal<br>India</p>
+                    </div>
+
+                    <div class="contact-card cyber-panel">
+                        <div class="contact-header">
+                            <div class="contact-icon">📞</div>
+                            <div class="contact-status">PHONE</div>
+                        </div>
+                        <h3>Direct Line</h3>
+                        <p class="cyber-glow">+91-6296764384</p>
+                    </div>
+
+                    <div class="contact-card cyber-panel">
+                        <div class="contact-header">
+                            <div class="contact-icon">📧</div>
+                            <div class="contact-status">EMAIL</div>
+                        </div>
+                        <h3>Digital Mail</h3>
+                        <p class="cyber-glow">gpritam827@gmail.com</p>
+                    </div>
+
+                    <div class="contact-card cyber-panel">
+                        <div class="contact-header">
+                            <div class="contact-icon">⚡</div>
+                            <div class="contact-status">RESPONSE</div>
+                        </div>
+                        <h3>Response Time</h3>
+                        <p class="cyber-glow">Within 24 hours</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer cyber-panel">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Pritam Ghosh. All systems operational.</p>
+                <div class="footer-stats">
+                    <span class="stat">Uptime: 99.9%</span>
+                    <span class="stat">Status: Active</span>
+                    <span class="stat">Version: 2.1.0</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
